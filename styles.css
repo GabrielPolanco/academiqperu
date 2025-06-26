@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* Estilos adicionales para elementos específicos si son necesarios */
+.hero-bg {
+    background-color: #f0f4f8; /* Un color de fondo suave para la sección principal */
+}
+.cta-button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.cta-button:hover {
+    opacity: 0.9;
+}
+.testimonial-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+}
+.faq-item summary {
+    cursor: pointer;
+    outline: none;
+}
+.faq-item[open] summary {
+    font-weight: 600;
+}
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+.faq-item summary::after {
+    content: '+';
+    float: right;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-top: -2px;
+    transition: transform 0.2s;
+}
+.faq-item[open] summary::after {
+    transform: rotate(45deg);
+}

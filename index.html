@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Tutores Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 md:px-12 py-4 flex justify-between items-center">
+            <a href="#inicio" class="flex items-center space-x-2">
+                <img src="images/Logo.png" alt="Logo de la empresa" class="h-10">
+                <span class="text-2xl font-bold text-gray-900 hidden md:block">AcademIQPeru</span>
+            </a>
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#inicio" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Inicio</a>
+                <a href="#reseñas" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Reseñas</a>
+                <a href="#como-empezar" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Cómo Empezar</a>
+                <a href="#beneficios" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Beneficios</a>
+                <a href="#profesores" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Profesores</a>
+                <a href="#faq" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Preguntas Frecuentes</a>
+                <a href="#webinar" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Webinar Gratis</a>
+                <a href="#formulario-captacion" class="bg-red-700 text-white font-semibold py-2 px-5 rounded-lg hover:bg-red-800 transition-colors">
+                    Empieza Ahora
+                </a>
+            </div>
+
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-600 hover:text-red-700 focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-6 shadow-inner transition-all duration-300 ease-in-out">
+            <a href="#inicio" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Inicio</a>
+            <a href="#reseñas" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Reseñas</a>
+            <a href="#como-empezar" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Cómo Empezar</a>
+            <a href="#beneficios" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Beneficios</a>
+            <a href="#profesores" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Profesores</a>
+            <a href="#faq" class="block py-2 text-gray-800 hover:bg-gray-100 rounded-md font-semibold">Preguntas Frecuentes</a>
+            <a href="#webinar" class="text-gray-600 hover:text-red-700 font-semibold transition-colors">Webinar Gratis</a>
+            <a href="#formulario-captacion" class="block mt-4 text-center bg-red-700 text-white py-2 rounded-lg font-semibold hover:bg-red-800">
+                Empieza Ahora
+            </a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-bg py-12 md:py-20 mt-20"> </header>
+
+
+
+
+    
+    
+
+    <section class="py-12 md:py-20 bg-red-700 text-white"> 
+        </section>
+
+    <footer class="py-8 bg-gray-800 text-gray-400 text-center">
+        </footer>
+
+    <script src="script.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</body>
+</html>
+
+    <header class="hero-bg py-12 md:py-20">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-wrap items-start -mx-4">
+                <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                        Desbloquea tu Máximo Potencial Académico.
+                    </h1>
+                    <h2 class="text-xl md:text-2xl text-gray-700 mb-8">
+                        Conecta con cientos de profesores expertos verificados y alcanza tus metas académicas sin salir de casa. Clases 100% personalizadas, flexibles y a tu medida.
+                    </h2>
+                    <div class="mb-8 aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
+                        <img src="images/EstudianteFelizConTutor.png" alt="Estudiante interactuando con tutor online" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/cccccc/ffffff?text=Imagen+no+disponible';">
+                    </div>
+                    <p class="text-sm text-gray-600 italic">Sugerencia de contenido de video: Interfaz amigable, estudiante sonriendo, beneficios como "Flexibilidad", "Expertos", "A tu ritmo".</p>
+                </div>
+
+                <div class="w-full lg:w-1/2 px-4">
+                    <div class="flex flex-col lg:flex-row items-start gap-6">
+                        <div class="bg-white p-8 md:p-10 rounded-xl shadow-2xl w-full lg:flex-shrink-0 lg:w-[448px] max-w-md" id="formulario-captacion">
+                            <h3 class="text-2xl font-semibold text-gray-900 mb-6 text-center">¡Encuentra a tu profesor perfecto GRATIS!</h3>
+                            <form action="#" method="POST">
+                                <div class="mb-5">
+                                    <label for="nombre" class="block text-sm font-medium text-gray-700 mb-1">Nombre</label>
+                                    <input type="text" name="nombre" id="nombre" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition duration-150" placeholder="Tu nombre completo">
+                                </div>
+                                <div class="mb-5">
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                                    <input type="email" name="email" id="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500 transition duration-150" placeholder="tu@email.com">
+                                </div>
+                                <div class="mb-8">
+                                    <label for="materia" class="block text-sm font-medium text-gray-700 mb-1">¿En qué materia necesitas ayuda?</label>
+                                    <select name="materia" id="materia" required class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-white focus:ring-2 focus:ring-red-500 focus:border-red-500 transition duration-150">
+                                        <option value="" disabled selected>Selecciona una materia</option>
+                                        <option value="matematicas">Matemáticas</option>
+                                        <option value="fisica">Física</option>
+                                        <option value="quimica">Química</option>
+                                        <option value="idiomas">Idiomas</option>
+                                        <option value="programacion">Programación</option>
+                                        <option value="historia">Historia</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="w-full cta-button bg-red-700 text-white font-semibold py-3 px-6 rounded-lg text-lg hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300">
+                                    BUSCAR MI TUTOR AHORA
+                                </button>
+                            </form>
+                        </div>
+                        <div class="w-full lg:flex-grow mt-6 lg:mt-0">
+                            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                            <div class="elfsight-app-4063e513-70b0-419a-97cd-c6bc6e3b64ef" data-elfsight-app-lazy></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12 text-center">
+            <section id="reseñas" class="py-12 md:py-20 bg-white">
+        </section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Con la Confianza de Nuestros Estudiantes</h2>
+            <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">Descubre por qué otros estudiantes como tú eligen nuestra plataforma para alcanzar sus metas académicas.</p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="testimonial-card p-6 rounded-lg shadow-lg text-left">
+                    <img src="https://placehold.co/80x80/E74C3C/FFFFFF?text=JP" alt="Foto de Juan P." class="w-16 h-16 rounded-full mb-4 mx-auto md:mx-0" onerror="this.onerror=null;this.src='https://placehold.co/80x80/cccccc/ffffff?text=JP';">
+                    <p class="text-gray-700 mb-3 italic">"Gracias a Sofía, mi tutora de estadística, pasé de estar perdido a sacar la mejor nota del curso. ¡100% recomendado!"</p>
+                    <p class="font-semibold text-gray-900">Juan P.</p>
+                    <p class="text-sm text-gray-500">Estudiante de Ingeniería</p>
+                </div>
+                <div class="testimonial-card p-6 rounded-lg shadow-lg text-left">
+                    <img src="https://placehold.co/80x80/EC7063/FFFFFF?text=LM" alt="Foto de Laura M." class="w-16 h-16 rounded-full mb-4 mx-auto md:mx-0" onerror="this.onerror=null;this.src='https://placehold.co/80x80/cccccc/ffffff?text=LM';">
+                    <p class="text-gray-700 mb-3 italic">"Las clases de química online fueron súper claras. Pude entender temas que se me hacían imposibles. ¡Mi promedio subió muchísimo!"</p>
+                    <p class="font-semibold text-gray-900">Laura M.</p>
+                    <p class="text-sm text-gray-500">Estudiante de Bachillerato</p>
+                </div>
+                <div class="testimonial-card p-6 rounded-lg shadow-lg text-left md:col-span-2 lg:col-span-1">
+                    <img src="https://placehold.co/80x80/F1948A/FFFFFF?text=CR" alt="Foto de Carlos R." class="w-16 h-16 rounded-full mb-4 mx-auto md:mx-0" onerror="this.onerror=null;this.src='https://placehold.co/80x80/cccccc/ffffff?text=CR';">
+                    <p class="text-gray-700 mb-3 italic">"Encontrar un tutor para mi tesis fue muy fácil. Me ayudó a estructurar mis ideas y avanzar mucho más rápido. ¡Totalmente agradecido!"</p>
+                    <p class="font-semibold text-gray-900">Carlos R.</p>
+                    <p class="text-sm text-gray-500">Estudiante de Maestría</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+                <div>
+                    <p class="text-4xl font-bold text-red-700">+150</p>
+                    <p class="text-gray-600">Estudiantes Satisfechos</p>
+                </div>
+                <div>
+                    <p class="text-4xl font-bold text-red-700">+50</p>
+                    <p class="text-gray-600">Profesores Expertos Disponibles</p>
+                </div>
+                <div>
+                    <p class="text-4xl font-bold text-red-700">+1.200</p>
+                    <p class="text-gray-600">Horas de Clase Realizadas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-gray-100">
+        <div class="container mx-auto px-6 md:px-12">
+
+            <section id="como-empezar" class="py-12 md:py-20 bg-gray-100">
+        </section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Empezar es Muy Sencillo</h2>
+
+            <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto text-center">En solo tres pasos, estarás aprendiendo con el tutor perfecto para ti.</p>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div class="bg-red-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Busca</h3>
+                    <p class="text-gray-600">Dinos qué materia necesitas reforzar. Explora perfiles de tutores expertos y elige el que más te guste.</p>
+                </div>
+                <div class="p-6">
+                    <div class="bg-red-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Conecta</h3>
+                    <p class="text-gray-600">Agenda una primera sesión en el horario que más te convenga. ¡Total flexibilidad!</p>
+                </div>
+                <div class="p-6">
+                    <div class="bg-red-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Aprende</h3>
+                    <p class="text-gray-600">Inicia tu clase online. Resuelve dudas, prepara exámenes o refuerza temas complejos de forma personalizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12">
+            <section id="beneficios" class="py-12 md:py-20 bg-white">
+        </section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Olvídate del Estrés Académico. Estamos Aquí para Ayudarte.</h2>
+            <p class="text-lg text-gray-600 mb-12 max-w-3xl mx-auto text-center">Descubre cómo nuestra plataforma transforma tu manera de aprender y te ayuda a superar cualquier desafío.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Flexibilidad Total</h3>
+                        <p class="text-gray-600 mt-1">Estudia cuando quieras y desde donde quieras. Adapta las clases a tu calendario.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Aprendizaje a Medida</h3>
+                        <p class="text-gray-600 mt-1">Tu tutor se enfoca 100% en ti, a diferencia de una clase concurrida.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        
+                        <h3 class="text-lg font-semibold text-gray-900">Profesores Verificados</h3>
+                        <p class="text-gray-600 mt-1">Todos nuestros tutores pasan por un riguroso proceso de selección.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Resultados Reales</h3>
+                        <p class="text-gray-600 mt-1">Mejora tus calificaciones y gana la confianza que necesitas para triunfar.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <div class="bg-green-100 text-green-600 p-3 rounded-full">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg font-semibold text-gray-900">Precios Justos</h3>
+                        <p class="text-gray-600 mt-1">Paga solo por el tiempo que necesitas. Sin matrículas ni compromisos a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-gray-100">
+        <div class="container mx-auto px-6 md:px-12">
+            <section id="profesores" class="py-12 md:py-20 bg-gray-100">
+        </section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 text-center">Conoce a Nuestros Profesores Estrella</h2>
+            <p class="text-lg text-gray-600 mb-12 max-w-2xl mx-auto text-center">Expertos apasionados por la enseñanza, listos para ayudarte.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="https://placehold.co/120x120/C0392B/FFFFFF?text=Profe+1" alt="Foto Profesor 1" class="w-24 h-24 rounded-full mx-auto mb-4" onerror="this.onerror=null;this.src='https://placehold.co/120x120/cccccc/ffffff?text=Profe+1';">
+                    <h3 class="text-xl font-semibold text-gray-900">Dr. Ana Torres</h3>
+                    <p class="text-red-700 font-medium">Experta en Cálculo y Álgebra</p>
+                    <p class="text-sm text-gray-600 mt-2 italic">"Mi pasión es hacer que los números cobren sentido para mis estudiantes."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                    <img src="https://placehold.co/120x120/4FD1C5/FFFFFF?text=Profe+2" alt="Foto Profesor 2" class="w-24 h-24 rounded-full mx-auto mb-4" onerror="this.onerror=null;this.src='https://placehold.co/120x120/cccccc/ffffff?text=Profe+2';">
+                    <h3 class="text-xl font-semibold text-gray-900">Lic. Marco Vera</h3>
+                    <p class="text-teal-600 font-medium">Especialista en Redacción de Tesis</p>
+                    <p class="text-sm text-gray-600 mt-2 italic">"Ayudo a los estudiantes a comunicar sus ideas con claridad y rigor académico."</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg text-center md:col-span-2 lg:col-span-1">
+                    <img src="https://placehold.co/120x120/F6E05E/333333?text=Profe+3" alt="Foto Profesor 3" class="w-24 h-24 rounded-full mx-auto mb-4" onerror="this.onerror=null;this.src='https://placehold.co/120x120/cccccc/ffffff?text=Profe+3';">
+                    <h3 class="text-xl font-semibold text-gray-900">Ing. Laura Gómez</h3>
+                    <p class="text-yellow-600 font-medium">Tutora de Física y Programación</p>
+                    <p class="text-sm text-gray-600 mt-2 italic">"Desmitifico los conceptos complejos para que cualquiera pueda aprender."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-white">
+        <div class="container mx-auto px-6 md:px-12 max-w-3xl">
+            <section id="faq" class="py-12 md:py-20 bg-white">
+        </section>
+            <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">Preguntas Frecuentes</h2>
+            <div class="space-y-6">
+                <details class="faq-item bg-gray-50 p-5 rounded-lg shadow">
+                    <summary class="font-semibold text-lg text-gray-800 flex justify-between items-center w-full">
+                        ¿Cómo funciona el pago por hora?
+                    </summary>
+                    <p class="text-gray-600 mt-3">El pago se realiza de forma segura a través de nuestra plataforma. Solo pagas por las horas de clase que efectivamente recibes. Puedes cargar saldo a tu cuenta o pagar por clase individual, según tu preferencia.</p>
+                </details>
+                <details class="faq-item bg-gray-50 p-5 rounded-lg shadow">
+                    <summary class="font-semibold text-lg text-gray-800 flex justify-between items-center w-full">
+                        ¿Qué pasa si no conecto con mi tutor?
+                    </summary>
+                    <p class="text-gray-600 mt-3">Tu satisfacción es nuestra prioridad. Si por alguna razón no sientes que el tutor es el adecuado para ti después de la primera sesión, te ayudaremos a encontrar otro sin costo adicional.</p>
+                </details>
+                <details class="faq-item bg-gray-50 p-5 rounded-lg shadow">
+                    <summary class="font-semibold text-lg text-gray-800 flex justify-between items-center w-full">
+                        ¿Los profesores están realmente capacitados? ¿Cómo los seleccionan?
+                    </summary>
+                    <p class="text-gray-600 mt-3">Sí. Todos nuestros tutores pasan por un riguroso proceso de selección que incluye verificación de credenciales, experiencia en enseñanza y pruebas de conocimiento en su área de especialización.</p>
+                </details>
+                <details class="faq-item bg-gray-50 p-5 rounded-lg shadow">
+                    <summary class="font-semibold text-lg text-gray-800 flex justify-between items-center w-full">
+                        ¿Necesito algún software especial para las clases?
+                    </summary>
+                    <p class="text-gray-600 mt-3">No necesitas software complicado. Nuestras clases se realizan a través de una plataforma de videollamada integrada y fácil de usar, accesible desde tu navegador web. Solo necesitas una conexión a internet estable, micrófono y cámara.</p>
+                </details>
+                 <details class="faq-item bg-gray-50 p-5 rounded-lg shadow">
+                    <summary class="font-semibold text-lg text-gray-800 flex justify-between items-center w-full">
+                        ¿Puedo cancelar o reprogramar una clase?
+                    </summary>
+                    <p class="text-gray-600 mt-3">Sí, entendemos que pueden surgir imprevistos. Puedes cancelar o reprogramar tus clases con un aviso previo (generalmente 24 horas antes) directamente desde tu panel de estudiante o contactando a tu tutor.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="webinar" class="bg-gray-900 text-white py-16 md:py-24">
+        <div class="container mx-auto px-6 md:px-12 text-center max-w-4xl">
+            <div class="mb-12">
+                <span class="text-sm font-semibold uppercase text-red-500 tracking-wider">¡Evento en vivo y gratuito!</span>
+                <h2 class="text-4xl md:text-6xl font-extrabold text-white mt-2 leading-tight">
+                    Webinar: "Estudia más, Estrésate menos"
+                </h2>
+                <h3 class="text-xl md:text-2xl font-light text-gray-300 mt-4 max-w-2xl mx-auto">
+                    Aprende las 3 claves para mejorar tu Tiempo, Investigación y Aplicación del conocimiento y conquista tus estudios.
+                </h3>
+            </div>
+
+            <div class="relative w-full mb-12 rounded-2xl overflow-hidden shadow-2xl border-4 border-red-700">
+                <div class="aspect-w-16 aspect-h-9">
+                    <div class="mb-8 aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
+                        <img src="images/Webinar.png" alt="Estudiante interactuando con tutor online" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x338/cccccc/ffffff?text=Imagen+no+disponible';">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-xl shadow-inner mb-12 border-2 border-dashed border-gray-700">
+                <p class="text-2xl font-bold text-red-500 mb-4">¡4 Clases Magistrales en Vivo!</p>
+                <p class="text-lg text-gray-200 font-medium">
+                    16, 17, 18 y 19 de Julio | Ver Horario por País |
+                </p>
+                <div class="mt-6">
+                    <p class="text-sm text-gray-400 font-light italic">
+                        Además, ¡te llevas 1 + 12 regalos sorpresa con tu inscripción!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="bg-black p-8 md:p-10 rounded-xl shadow-2xl max-w-md mx-auto">
+                <h4 class="text-3xl font-bold text-white mb-6">
+                    Reserva tu plaza gratis
+                </h4>
+                <p class="text-gray-300 mb-8 text-lg">
+                    y llévate de regalo una guía en video con los 7 errores más comunes al estudiar.
+                </p>
+                <form action="#" method="POST">
+                    <div class="mb-5">
+                        <input type="text" name="nombre_webinar" placeholder="Escribe tu nombre" required class="w-full px-4 py-4 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500 placeholder-gray-500">
+                    </div>
+                    <div class="mb-6">
+                        <input type="email" name="email_webinar" placeholder="Escribe tu email" required class="w-full px-4 py-4 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-500 placeholder-gray-500">
+                    </div>
+                    <div class="mb-8 text-left">
+                        <label class="inline-flex items-center text-gray-400">
+                            <input type="checkbox" required class="form-checkbox text-red-600 h-5 w-5 rounded border-gray-600 bg-gray-800 focus:ring-red-500">
+                            <span class="ml-2 text-sm">
+                                He leído y acepto la <a href="#" class="text-red-500 hover:underline">Política de Privacidad</a>.
+                            </span>
+                        </label>
+                    </div>
+                    <button type="submit" class="w-full bg-red-700 text-white font-extrabold py-4 rounded-lg text-xl uppercase transition-colors hover:bg-red-600 focus:outline-none focus:ring-4 focus:ring-red-300">
+                        RESERVAR PLAZA GRATIS
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-red-700 text-white">
+        </section>
+
+    <section class="py-12 md:py-20 bg-red-700 text-white"> 
+        <div class="container mx-auto px-6 md:px-12 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Listo para Llevar tus Notas al Siguiente Nivel?</h2>
+            <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto">Únete a cientos de estudiantes que ya están alcanzando sus objetivos. El primer paso es encontrar a tu tutor ideal.</p>
+            <a href="#formulario-captacion" class="cta-button bg-white text-red-700 font-semibold py-4 px-10 rounded-lg text-xl hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-red-300 transition duration-300 ease-in-out transform hover:scale-105"> 
+                ENCUENTRA TU TUTOR IDEAL
+            </a>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-gray-800 text-gray-400 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-sm">&copy; 2024 AcademIQPeru. Todos los derechos reservados.</p>
+            <p class="text-sm mt-1">
+                <a href="#" class="hover:text-gray-200">Política de Privacidad</a> | 
+                <a href="#" class="hover:text-gray-200">Términos de Servicio</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+</body>
+</html>
