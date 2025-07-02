@@ -1,6 +1,8 @@
 body {
     font-family: 'Inter', sans-serif;
+    padding-top: 80px; /* Ajusta este valor si tu navbar tiene una altura diferente */
 }
+
 /* Estilos adicionales para elementos específicos si son necesarios */
 .hero-bg {
     background-color: #f0f4f8; /* Un color de fondo suave para la sección principal */
